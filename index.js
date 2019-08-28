@@ -1,3 +1,3 @@
-function justInvoke() {
-  thisValue = this
+function justInvoke(fn) {
+  return fn();
 }
