@@ -1,5 +1,6 @@
-function justInvoke(){
-  function thisValue() {
+function justInvoke() {
+  function otherFunction() {
     return this;
   }
+  return otherFunction();
 }
