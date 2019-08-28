@@ -1,4 +1,3 @@
 function justInvoke() {
-
-
+  thisValue = this
 }
