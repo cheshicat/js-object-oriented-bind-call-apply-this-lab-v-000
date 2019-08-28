@@ -1,4 +1,4 @@
-let justInvoke ={
+function justInvoke() {
   function otherFunction() {
     return this;
   }
